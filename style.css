@@ -1,0 +1,383 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/* MY CODE */
+
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    position: fixed;
+    width: 80%;
+    margin: 50px 10% 0;
+    background-color: #fff;
+    padding: 10px;
+}
+.menu-three {
+    display: none;
+}
+nav h2 {
+    color: #111;
+    height: fit-content;
+    margin-top: 17px;
+}
+
+nav ul {
+
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+    padding: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #111;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 50px;
+}
+nav button {
+    font-size: 15px;
+    color: #2673a7;
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px solid #2673a7;
+}
+
+.menu-nav {
+    display: none;
+}
+
+
+
+.flex {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.pic {
+    background-image: url('img/pic2.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-basis: 40%;
+    height: 100vh;
+}
+.text {
+    background-color: #fdfdfd;
+    flex-basis: 50%;
+}
+
+.text h1 {
+    margin-top: 200px;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 40px;
+    color: #111;
+    margin-left: 10%;
+}
+.text h2 {
+    color: #2673a7;
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: 10%;
+}
+.text p {
+    font-size: 15px;
+    line-height: 20px;
+    color: #111;
+    width: 55%;
+    margin-left: 10%;
+}
+
+.bt {
+    margin-left: 10%;
+    padding: 15px;
+    color: #111;
+    background-color: #fff;
+    border: 2px solid #eee;
+    border-radius: 20px;
+    margin-top: 25px;
+    font-weight: 700;
+}
+.help {
+    background-color: #20454d;
+    border: 1px solid transparent;
+    height: 40px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 10px;
+    right: 50px;
+}
+.logos {
+    flex-basis: 10%;
+    border-left: 2px solid #eee;
+    display: table;
+}
+
+.logos div {
+    display: table-cell;
+    vertical-align: bottom;
+    
+}
+.logos .t {
+    width: 40px;
+    height: 40px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    border: 1px solid #111;
+    border-radius: 30px;
+    
+}
+
+.logos .g {
+    width: 15px;
+    height: 15px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    border: 1px solid #111;
+    border-radius: 30px;
+    padding: 12px;
+    
+}
+
+
+@media only screen and (max-width: 720px) {
+    nav {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        border: 1px solid transparent;
+        border-radius: 0;
+        position: fixed;
+        width: 100%;
+        margin: 0;
+        background-color: #fff;
+        padding: 10px;
+    }
+    .menu-three {
+        display: block;
+        height: 50px;
+        width: 100px;
+        background-image: url('img/menu-icon.png');
+        background-repeat: no-repeat;
+        background-size: 40%;
+        background-position: center;
+    }
+    nav h2 {
+        color: #111;
+        height: fit-content;
+        margin-left: 30%;
+        margin-right: 0;
+        padding: 0;
+        margin-top: 17px;
+        
+    }
+    nav ul {
+
+    }
+    
+    nav ul li {
+        display: none;
+    }
+    
+    nav ul li a {
+        display: none;
+    }
+    nav button {
+        display: none;
+    }
+
+    .menu-nav {
+        display: none;
+        height: 0;
+        width: 0;
+        margin-top: 50px;
+    }
+    .menu-nav ul {
+        margin-top: 20px;
+    }
+    .menu-nav ul li {
+        list-style: none;
+        display: block;
+        padding: 0 10px;
+    }
+    .menu-nav ul li a {
+        visibility: hidden;
+        text-decoration: none;
+        color: #111;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 30px;
+        padding: 10px;
+    }
+    .flex {
+        display: block;
+    }
+    
+    .pic {
+        display: block;
+        width: 100%;
+        padding-top: 50px;
+    }
+    
+    
+    .text h1 {
+        margin-top: 20px;
+        
+    }
+    
+    .text p {
+        
+        width: 80%;
+        margin-right: 10%;
+        text-align: justify;
+        
+    }
+    .bt {
+        margin-bottom: 20px;
+    }
+    .help {
+        display: none;
+    }
+    .logos {
+        width: 100%;
+        border-top: 2px solid #eee;
+        display: block;
+    }
+    
+    .logos div {
+        display: block;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        
+    }
+    .logos .t {
+        
+        margin-left: 0px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        
+        
+    }
+    
+    .logos .g {
+        
+        margin-bottom: 0px;
+        margin-left: 0px;
+        padding: 13px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        
+    }
+}
