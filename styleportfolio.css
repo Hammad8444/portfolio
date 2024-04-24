@@ -1,0 +1,341 @@
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    position: fixed;
+    width: 80%;
+    margin: 50px 10% 0;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 2px 2px 5px #8d8d8d;
+    z-index: 1;
+}
+.menu-three {
+    display: none;
+}
+nav h2 {
+    color: #111;
+    height: fit-content;
+    margin-top: 17px;
+}
+
+nav ul {
+
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+    padding: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #111;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 50px;
+}
+nav button {
+    font-size: 15px;
+    color: #2673a7;
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px solid #2673a7;
+}
+
+.menu-nav {
+    display: none;
+}
+
+
+
+
+
+.backimg {
+    background-image: url(img/portfolio.avif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.text-buttons {
+    width: 20%;
+    position: absolute;
+    right: 20%;
+    top: 30%;
+    
+}
+
+.text-buttons h1 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px #111;
+    width: 80%;
+    text-align: justify;
+}
+
+.text-buttons .p1 {
+    margin-top: 15px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 100;
+    width: 95%;
+    text-shadow: 2px 2px 5px #111;
+}
+
+.flex-buttons {
+    margin-top: 15px;
+    display: flex;
+    flex-flow: row no wrap;
+    width: 80%;
+    justify-content: space-between;
+}
+.flex-buttons button {
+    padding: 10px;
+    border: 1px solid transparent;
+    background-color: #fff;
+    box-shadow: 2px 2px 3px #111;
+}
+.flex-buttons h3 {
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 900;
+    padding-top: 10px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 0;
+    text-shadow: 2px 2px 5px #111;
+}
+.follow {
+    margin-top: 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 20%;
+}
+.follow .po {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 100;
+    text-shadow: 2px 2px 5px #111;
+    padding: 5px;
+}
+.follow i {
+    color: #fff;
+    text-shadow: 1px 1px 2px #111;
+    margin-left: 25px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.top-sec {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.top-sec .left {
+    flex-basis: 40%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.line {
+    width: 60px;
+    height: 2px;
+    background-color: #9a95b4;
+    margin-top: 17.5px;
+}
+.top-sec .left p {
+    font-size: 25px;
+    line-height: 35px;
+    color: #111;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.right {
+    flex-basis: 60%;
+    
+}
+.right div {
+    width: 85%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.right p {
+    width: 105px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.google i {
+    color: red;
+    padding: 5px 0px 0 5px;
+    margin-right: 5px;
+}
+
+
+.meta i {
+    color: #0c60e1;
+    padding: 5px 0 0 5px;
+    margin-right: 5px;
+    
+}
+
+
+.mailchimp i {
+    background-color: #dfd83b;
+    padding: 5px;
+    border: 1px solid #dfd83b;
+    border-radius: 30px;
+    margin-right: 5px;
+}
+
+
+.apple i {
+    background-color: #000;
+    color: #f7f7f7;
+    padding: 5px 8px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    margin-right: 5px;
+}
+
+.upwork i {
+    background-color: #18a808;
+    color: #f7f7f7;
+    padding: 5px 3px;
+    border: 1px solid #18a808;
+    border-radius: 30px;
+    margin-right: 5px;
+}
+
+.paypal i {
+    background: linear-gradient(to bottom, #2a5cc9, #3b8fd2);
+    color: #f7f7f7;
+    padding: 5px 8px;
+    border: 1px solid #2a5cc9;
+    border-radius: 30px;
+    margin-right: 5px;
+}
+
+
+.android i {
+    background-color: #90b842;
+    padding: 5px;
+    color: #f7f7f7;
+    border: 1px solid #90b842;
+    border-radius: 30px;
+    margin-right: 5px;
+    
+}
+
+.amazon i {
+    background-color: #000;
+    color: #f79b2e;
+    padding: 5px 8px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    margin-right: 5px;
+}
+
+
+.specialities {
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.specialities h2 {
+    font-size: 25px;
+    line-height: 50px;
+    color: #111;
+    font-weight: 600;
+    text-align: center;
+}
+
+.specialities p {
+    font-size: 15px;
+    line-height: 25px;
+    color: #111;
+    font-weight: 100;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+.footer .ist {
+
+    background-color: #f8f8ff;
+    flex-basis: 32%;
+    padding: 10px 0 20px 0;
+}
+
+.footer .second {
+
+    background-color: #f8f8ff;
+    flex-basis: 32%;
+    padding: 10px 0 20px 0;
+}
+.footer .third {
+
+    background-color: #f8f8ff;
+    flex-basis: 32%;
+    padding: 10px 0 20px 0;
+
+}
+
+.footer div i {
+    padding: 20px 30px;
+}
+
+.ist i {
+    color: #eeab29;
+}
+
+.second i {
+    color: #ef6d0f;
+}
+
+.third i {
+    color: #22a4f1;
+}
+
+.footer div h5 {
+    font-size: 20px;
+    line-height: 40px;
+    color: #111;
+    padding-left: 15px;
+}
+.footer div p {
+    color: #111;
+    margin-left: 15px;
+    text-align:left;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 0 15px;
+}
