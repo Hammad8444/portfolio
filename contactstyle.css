@@ -1,0 +1,166 @@
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    position: fixed;
+    width: 80%;
+    margin: 50px 10% 0;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 2px 2px 5px #8d8d8d;
+    z-index: 1;
+}
+.menu-three {
+    display: none;
+}
+nav h2 {
+    color: #111;
+    height: fit-content;
+    margin-top: 17px;
+}
+
+nav ul {
+
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+    padding: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #111;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 50px;
+}
+nav button {
+    font-size: 15px;
+    color: #2673a7;
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px solid #2673a7;
+}
+
+.menu-nav {
+    display: none;
+}
+
+
+/* New Code */
+
+main {
+
+}
+
+.background {
+    width: 100%;
+    height: 500px;
+    background-color: #f0996c;
+    
+}
+.background div {
+    position: absolute;
+    top: 40%;
+    bottom: 40%;
+    left: 25%;
+    right: 25%;
+    width: 50%;
+}
+
+.background div h1 {
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 2px 2px 5px #111;
+    text-align: center;
+    line-height: 70px;
+}
+
+.background div p {
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: capitalize;
+    color: #111;
+    text-shadow: 0.5px 0.5px 5px #111;
+    text-align: center;
+    line-height: 30px;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 80px;
+    
+}
+
+.left {
+    flex-basis: 45%;
+}
+
+.left h2 {
+    color: #333133;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.left p {
+    color: #333133;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.left input {
+    width: 100%;
+    margin: 10px 0;
+    height: 30px;
+    border: 1px solid #757575;
+    border-radius: 5px;
+}
+
+.left textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    margin: 10px 0;
+    border-radius: 5px;
+    
+}
+
+.left input:focus, .left textarea:focus {
+    outline: none;
+}
+
+.left button {
+    margin: 10px 0;
+    padding: 10px 0;
+    background-color: #f0996c;
+    border: 2px solid #f0996c;
+    border-radius: 5px;
+    width: 30%;
+    margin-left: 70%;
+}
+
+.right {
+    flex-basis: 50%;
+}
+.right h2 {
+    color: #333133;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.right p {
+    color: #333133;
+    font-size: 20px;
+    line-height: 30px;
+}
