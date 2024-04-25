@@ -99,14 +99,16 @@ nav button {
     width: 100%;
     height: 500px;
     background-color: #eee;
+    display: table;
 }
-.dots {
-    margin-top: 20px;
+.whitebg .dots {
+    margin-top: 27px;
 }
 
-.dots p {
+.whitebg .dots p {
     color:#8d8d8d;
-    padding: 5px;
+    font-weight: 900;
+    
 }
 
 .img-fr {
@@ -115,9 +117,124 @@ nav button {
     position: absolute;
     right: 10%;
     top: 50%;
+    border: 1px solid transparent;
+    border-radius: 10px;
 }
 
 
 .greybg .dots {
+    position: absolute;
+    left: 10%;
+    top: 98%;
+    margin-top: 17px;
+}
+.greybg .dots p {
+    color:#8d8d8d;
+    font-weight: 900;
+}
+
+
+.greybg-low {
+    position: relative;
+    top: 40%;
+    left: 10%;
+    right: 10%;
+    width: calc(80% - 80px);
+    height: 80px;
+    padding: 20px 40px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
     
+}
+.greybg-low div {
+    margin: auto 0;
+}
+
+.greybg-low div h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.greybg-low div p {
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 30px;
+    color: #8d8d8d;
+}
+
+.greybg-low div input {
+    
+    line-height: 30px;
+    width: 300px;
+    border: 1px solid #8d8d8d;
+}
+.greybg-low div input::placeholder {
+    
+    padding-left: 10px;
+}
+
+.greybg-low div button {
+    line-height: 30px;
+    width: 150px;
+    background-color: #2673a7;
+    color: #fff;
+    border: 1px solid #2673a7;
+    padding: 2px 0;
+}
+
+
+
+.categories {
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+}
+
+.categories-top {
+    width: 60%;
+    position: relative;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px #111;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.categories-top h5 {
+    font-size: 15px;
+    color: #8d8d8d;
+    text-transform: uppercase;
+    padding: 10px 0 0 10px;
+}
+.categories-top h1 {
+    font-size: 40px;
+    color: #111;
+    padding: 5px 0 0 10px;
+    font-weight: 900;
+}
+
+.categories-top p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #2673a7;
+    border-bottom: 2px solid #2673a7;
+    height: fit-content;
+    padding-bottom: 5px;
+
+}
+.picd {
+    background-image: url('img/computer.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+    height: 100px;
 }
