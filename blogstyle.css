@@ -10,6 +10,7 @@ nav {
     background-color: #fff;
     padding: 10px;
     box-shadow: 2px 2px 5px #8d8d8d;
+    z-index: 1;
 }
 .menu-three {
     display: none;
@@ -48,4 +49,75 @@ nav button {
 
 .menu-nav {
     display: none;
+}
+
+
+
+.whitebg {
+    background-color: #fff;
+    width: 100%;
+    height: 600px;
+}
+
+.positionset {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 10%;
+}
+
+.positionset .upline {
+    font-size: 15px;
+    font-weight: 600;
+    color: #111;
+    line-height: 20px;
+}
+.positionset h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #111;
+    margin-top: 15px;
+}
+
+.positionset .lpsm {
+    font-size: 15px;
+    font-weight: 100;
+    color: #8d8d8d;
+    line-height: 20px;
+    margin-top: 15px;
+    width: 75%;
+}
+
+.positionset button {
+    padding: 10px 30px;
+    background-color: #2673a7;
+    border: 1px solid #2673a7;
+    color: #fff;
+    margin-top: 20px;
+}
+.greybg {
+    width: 100%;
+    height: 500px;
+    background-color: #eee;
+}
+.dots {
+    margin-top: 20px;
+}
+
+.dots p {
+    color:#8d8d8d;
+    padding: 5px;
+}
+
+.img-fr {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+}
+
+
+.greybg .dots {
+    
 }
