@@ -61,7 +61,7 @@ main {
 .background {
     width: 100%;
     height: 500px;
-    background-color: #f0996c;
+    background: radial-gradient(#f5c77e, #f09967);
     
 }
 .background div {
@@ -119,9 +119,13 @@ main {
     line-height: 30px;
 }
 
+.inputs {
+    margin-top: 40px;
+}
+
 .left input {
     width: 100%;
-    margin: 10px 0;
+    margin: 15px 0;
     height: 30px;
     border: 1px solid #757575;
     border-radius: 5px;
@@ -129,7 +133,7 @@ main {
 
 .left textarea {
     width: 100%;
-    height: 100px;
+    height: 120px;
     resize: none;
     margin: 10px 0;
     border-radius: 5px;
@@ -163,4 +167,189 @@ main {
     color: #333133;
     font-size: 20px;
     line-height: 30px;
+}
+
+
+
+.customercare {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 20px;
+}
+
+.customercare img {
+    width: 90px;
+    height: 90px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+}
+
+.info {
+    margin: auto 10px;
+}
+
+
+.info h4 {
+    font-size: 20px;
+    color: #333133;
+    font-weight: 500;
+
+}
+.info h5 {
+    font-size: 15px;
+    color: #757575;
+    font-weight: 100;
+}
+
+.info h3 {
+    font-size: 15px;
+    font-weight: 100;
+    color: #f0996c;
+    padding: 0;
+}
+
+.othercontacts {
+    margin-top: 40px;
+}
+
+
+.othercontacts h2 {
+    font-size: 25px;
+    color: #333133;
+    line-height: 50px;
+    font-weight: 500;
+}
+
+.othercontacts div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    margin-top: 20px;
+}
+
+.othercontacts .fb i {
+    background: linear-gradient(to bottom, #f0996c, #f8c3a7);
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 23px;
+    border: 1px solid #f0996c;
+    border-radius: 50px;
+    margin: auto 10px;
+}
+
+.othercontacts .twitter i {
+    background: linear-gradient(to bottom, #f0996c, #f8c3a7);
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    border: 1px solid #f0996c;
+    border-radius: 50px;
+    margin: auto 10px;
+}
+
+.othercontacts div p {
+    line-height: 20px;   
+    color: #333133;
+    font-size: 15px;
+}
+
+.othercontacts div span {
+    color: #f0996c;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #404040;
+    
+}
+
+.setting {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+footer div h2 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+
+footer div ul {
+
+}
+footer div ul li {
+    list-style: none;
+}
+footer div ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+footer div p {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+footer div button {
+    margin: 10px 0;
+    padding: 10px 0;
+    background-color: #f0996c;
+    border: 2px solid #f0996c;
+    border-radius: 5px;
+    width: 100px;
+    color: #fff;
+}
+
+footer div i {
+    color: #f0996c;
+    margin: 10px 10px 10px 0;
+}
+
+
+footer .base {
+    background-color: #333333;
+    width: 100%;
+    height: auto;
+    
+}
+footer .base div {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+}
+footer .base p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 50px;
+}
+footer .base p span {
+    color: #f0996c;  
+}
+
+footer .base .product {
+    color: #fff;
+    font-size: 15px;
+    line-height: 50px;
+}
+
+footer .base .product span {
+    color: #fff;
+    font-size: 25px;
+    line-height: 50px;
+    font-family: cursive;
+    margin-left: 5px;
 }
